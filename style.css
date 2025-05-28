@@ -1,0 +1,87 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #fdfdfd;
+  color: #222;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 720px;
+  margin: auto;
+  padding: 2rem;
+}
+
+h1 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+h2 {
+  margin-top: 2rem;
+  color: #6a1b9a;
+}
+
+h3 {
+  margin-top: 1rem;
+  color: #4a148c;
+}
+
+.intro {
+  font-size: 1.1rem;
+  margin-bottom: 2rem;
+}
+
+.roles {
+  margin-top: 1rem;
+}
+
+.role {
+  margin-bottom: 1.5rem;
+}
+
+.perks {
+  list-style: circle inside;
+  margin: 1rem 0;
+  padding-left: 1rem;
+}
+
+.contact {
+  list-style: none;
+  padding-left: 0;
+}
+
+.contact li {
+  margin-bottom: 0.5rem;
+}
+
+a {
+  color: #6a1b9a;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+footer {
+  margin-top: 3rem;
+  font-style: italic;
+  color: #555;
+}
+
+.apply-button {
+  display: inline-block;
+  margin-top: 0.5rem;
+  padding: 0.5rem 1rem;
+  background-color: #6a1b9a;
+  color: white;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background-color 0.3s;
+}
+
+.apply-button:hover {
+  background-color: #4a148c;
+}
