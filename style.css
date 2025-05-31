@@ -34,6 +34,10 @@ h3 {
 
 .roles {
   margin-top: 1rem;
+  margin-bottom: 2.5rem;
+  background-color: #f1fcc7;
+  padding: 1.5rem;
+  border-radius: 8px;
 }
 
 .role {
@@ -84,4 +88,22 @@ footer {
 
 .apply-button:hover {
   background-color: #4a148c;
+}
+
+.interest-form {
+  margin-bottom: 2.5rem;
+  background-color: #f3e5f5;
+  padding: 1.5rem;
+  border-radius: 8px;
+}
+
+.interest-form p {
+  font-size: 1rem;
+}
+
+.join {
+  margin-bottom: 2.5rem;
+  background-color: #f3e5f5;
+  padding: 1.5rem;
+  border-radius: 8px;
 }
