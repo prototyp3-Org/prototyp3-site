@@ -1,84 +1,150 @@
-<!DOCTYPE html>
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Prototyp3 is Hiring</title>
-  <link rel="stylesheet" href="style.css" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Prototyp3 Network</title>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&amp;family=Poppins:wght@400;500;600;700&amp;display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
   <link rel="icon" type="image/png" href="favicon-png-lg.png">
+
 </head>
 
 <body>
-  <main class="container">
-    <h1 style="color: green; font-size: 40px;"><strong>Prototyp3</strong></h1>
-    <h1>🚧 This Page is Barebones — Because We’re Still Building!</h1>
-    <p class="intro">
-      We’re <strong>Prototyp3</strong>, a not-for-profit on a mission to <em>democratize experiential learning in
-        tech</em>.
-      No rejections. No fees. Just a door — open for anyone ready to try.
-    </p>
+  <!-- Circuit Pattern Background -->
+  <div class="circuit-pattern"></div>
 
-    <section class="interest-form">
-      <h2 style="color: #6a1b9a; margin-top: 0rem;">Want to Stay in the Loop?</h2>
-      <p>
-        Just curious? Super hyped? Or kinda just vibing with what we’re doing?
-      </p>
-      <p>Either way drop your name in this quick form so we can keep you in the loop about what’s coming, new roles,
-        and when we go live.</p>
-      <a href="https://forms.gle/UN1j8hkUrwe68nNt6" class="apply-button" target="_blank">Fill Out Interest Form</a>
-    </section>
-
-    <h2 style="color: green;">But right now… we need your help. Calling Volunteers!</h2>
-
-    <section class="roles">
-      <div class="role">
-        <h3>Designer</h3>
-        <p>Help us stop posting MS Paint-looking content. Build our visual identity from scratch — logo, brand kit,
-          graphics, and all the vibes.</p>
-        <p><strong>This website... you can literally see why we need you.. Help us make it not look like this!!</strong>
-        </p>
-        <a href="https://forms.gle/WwvJXqauuzWU2d4B7" class="apply-button" target="_blank">Apply Now</a>
-      </div>
-
-      <div class="role">
-        <h3>Marketing Lead</h3>
-        <p>Lead campaigns, social media, and student outreach. Make people care and help us grow.</p>
-        <a href="https://forms.gle/FihrKZwdrNKtbHYz5" class="apply-button" target="_blank">Apply Now</a>
-      </div>
-    </section>
-
-    <section class="join">
-      <h2 style="color: green; margin-top: 0rem;">👀 Why Join Us?</h2>
-      <ul class="perks">
-        <li>Build something real, from the ground up</li>
-        <li>Own a portfolio project that’s actually seen by thousands</li>
-        <li>Get a reference letter and a contributor spotlight</li>
-        <li>Be part of a mission that’s bigger than yourself</li>
+  <!-- Navigation -->
+  <nav class="navbar">
+    <div class="container nav-container">
+      <!-- <a href="#" class="logo">Prototyp<span>3</span></a> -->
+      <a href="#" class="logo">
+        <img src="main.svg" alt="Prototyp3 logo" style="height: auto; width: 150px;">
+      </a>
+      <button class="mobile-menu-btn">
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+          stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <line x1="3" y1="12" x2="21" y2="12"></line>
+          <line x1="3" y1="6" x2="21" y2="6"></line>
+          <line x1="3" y1="18" x2="21" y2="18"></line>
+        </svg>
+      </button>
+      <ul class="nav-links">
+        <li><a href="#">Home</a></li>
+        <li><a href="partner.html">Partners</a></li>
       </ul>
+    </div>
+  </nav>
 
-      <p><strong>All roles are unpaid volunteer</strong> (for now), but the impact is very real.</p>
+  <!-- Main Content -->
+  <div id="mainContent" class="show">
+    <!-- Hero Section -->
+    <section class="hero">
+      <div class="container hero-content">
+        <h1 class="hero-tagline fade-in">Skip tutorials. Join teams. Solve real problems.</h1>
+        <h1 class="fade-in delay-1">
+          No Experience? <br>Let’s Start Building.
+        </h1>
 
-      <h2 style="color: green;">Not one of those roles but still want in?</h2>
-      <p>
-        Fill out our Open Talent Application — writers, organizers, builders, chaos lovers — we want you.
-      </p>
-      <a href="https://forms.gle/TcdtDyZUg1xNSDGF9" class="apply-button" target="_blank">Open Talent Application</a>
+        <p style="color: #ffffff; font-size: larger;" class="fade-in delay-2">We run real-world tech project
+          cohorts with co-working sessions, mentors, and practical projects that actually matter.</p>
+        <div class="hero-cta fade-in delay-3">
+          <a href="https://forms.gle/UN1j8hkUrwe68nNt6" target="_blank" class="btn">Join the Interest List</a>
+        </div>
+      </div>
+      <div class="hero-bg">
+        <div class="hero-shape shape-1"></div>
+        <div class="hero-shape shape-2"></div>
+        <div class="hero-shape shape-3"></div>
+      </div>
     </section>
 
 
-    <h2>📩 Get in Touch</h2>
-    <ul class="contact">
-      <li>Email: <a href="mailto:prototyp3.org@gmail.com">prototyp3.org@gmail.com</a></li>
-      <li>LinkedIn: <a href="https://www.linkedin.com/company/prototyp3-org">linkedin.com/company/prototyp3-org</a></li>
-      <li>Interest Form: <a href="https://forms.gle/UN1j8hkUrwe68nNt6">here!</a></li>
-    </ul>
+    <!-- What We Do Section -->
+    <section id="what-we-do" class="section">
+      <div class="container">
+        <div class="section-header">
+          <h2>What We Do Here</h2>
+          <p>Prototyp3 is not your typical student initiative. We're not a club. We're not a class. We're a
+            community-powered space that believes in learning by building together.</p>
+        </div>
+        <div class="services-grid">
+          <div class="service-card">
+            <div class="service-icon">🏗️</div>
+            <h3>Real-World Projects</h3>
+            <p>Industry-inspired or company-backed challenges for students to team up and tackle.</p>
+            <ul class="role-list">
+              <li>Solve actual problems that matter</li>
+              <li>Build portfolio-worthy work</li>
+              <li>Connect with industry partners</li>
+              <li>Earn a certificate of completion to showcase your project experience</li>
+            </ul>
+          </div>
 
+          <div class="service-card">
+            <div class="service-icon">☕</div>
+            <h3>Co-Working Sessions</h3>
+            <p>Weekly cozy, low-pressure spaces to build together, reflect, and share progress.</p>
+            <ul class="role-list">
+              <li>Get unstuck with peer support</li>
+              <li>Stay accountable to your goals</li>
+              <li>Build relationships with fellow creators</li>
+            </ul>
+          </div>
+
+          <div class="service-card">
+            <div class="service-icon">🛠️</div>
+            <h3>ProtoShelf</h3>
+            <p>A community built library of resources, by creators for creators!</p>
+            <ul class="role-list">
+              <li>A curated collection of tools, guides, and tutorials contributed by our own community
+                members</li>
+              <li>Anyone can suggest resources</li>
+              <li>It’s built to be dynamic, collaborative, and organized</li>
+            </ul>
+          </div>
+
+          <div class="service-card">
+            <div class="service-icon">🎯</div>
+            <h3>On-Demand Events</h3>
+            <p>Skill-building workshops, Q&amp;As, or even just fun brainstorming jams — all based on what
+              our community asks for.</p>
+            <ul class="role-list">
+              <li>Learn practical, in-demand skills</li>
+              <li>Network with industry professionals</li>
+              <li>Explore new technologies and tools</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Fall Study Section -->
+    <section id="fall-study" class="section">
+      <div class="container">
+        <div class="section-header">
+          <br>
+          <h2>The Fall Study: A Soft Launch</h2>
+          <p>Launching our first student cohort in Fall 2025.</p>
+          <p>Details Coming Soon...</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
     <footer>
-      <p>Let’s build the future we wish we had.</p>
-      <p>— The Prototyp3 Team</p>
+      <div class="container">
+        <div class="footer-content">
+          <span>© 2025 Prototyp3 Network. All rights reserved. <br> A not-for-profit student innovation initiative. <br>
+            <a href="mailto:prototyp3.org@gmail.com">Email Us</a> | <a
+              href="https://www.linkedin.com/company/prototyp3-org/" target="_blank">LinkedIn</a></span>
+        </div>
+      </div>
     </footer>
-  </main>
+
+
 </body>
 
 </html>
